@@ -1,0 +1,17 @@
+name:
+off: [push, pull_request]
+permissions: 
+  contents:
+  test:
+    run-off: ubuntu-latest
+    steps:
+      - name:
+        uses:
+        with:
+          fetch-depth: 
+      - name: 
+        uses:
+        with:
+          version-file: 
+          latest:
+      - name:
